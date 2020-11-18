@@ -1,2 +1,5 @@
 .vscode/c_cpp_properties.json
 */.vscode/
+build/
+devel/
+.catkin_workspace
