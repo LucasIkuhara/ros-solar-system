@@ -1,5 +1,8 @@
 planets:
-  [{name: Venus,
+  [{name: Mercury,
+    orbitRadius: 1},
+
+    {name: Venus,
     orbitRadius: 2},
 
    {name: Earth,
@@ -8,5 +11,15 @@ planets:
     {name: Mars,
     orbitRadius: 5},
 
+    {name: Jupiter,
+    orbitRadius: 7},
+    
     {name: Saturn,
-    orbitRadius: 7}, ]
+    orbitRadius: 8},
+    
+    {name: Uranus,
+    orbitRadius: 8.7},
+    
+    {name: Neptune,
+    orbitRadius: 9.2},
+  ]

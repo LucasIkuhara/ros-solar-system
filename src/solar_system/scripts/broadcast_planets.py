@@ -20,6 +20,7 @@ class SolarSystem:
 
 
     def broadcastPlanet(self, time, planet):
+        #Constant used to Scale the solar system
         try:
             k = rospy.get_param("radiusConstant")
         except:
@@ -29,6 +30,8 @@ class SolarSystem:
         trans.header.stamp = rospy.Time.now()
         trans.header.frame_id = self.starName
         trans.child_frame_id = planet['name']
+
+        #Make a circle based on time, Scale speed based on radius
         trans.transform.translation.x = math.cos(time*(10 - planet['orbitRadius'])) * planet["orbitRadius"] * k
         trans.transform.translation.y = math.sin(time*(10 - planet['orbitRadius'])) * planet["orbitRadius"] * k
         trans.transform.translation.z = 0
