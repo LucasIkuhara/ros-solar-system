@@ -1,0 +1,12 @@
+planets:
+  [{name: Venus,
+    orbitRadius: 2},
+
+   {name: Earth,
+    orbitRadius: 4},
+
+    {name: Mars,
+    orbitRadius: 5},
+
+    {name: Saturn,
+    orbitRadius: 7}, ]

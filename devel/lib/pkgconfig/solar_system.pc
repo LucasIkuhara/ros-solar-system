@@ -1,0 +1,8 @@
+prefix=/home/lucas/Solar_System_WS/devel
+
+Name: solar_system
+Description: Description of solar_system
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

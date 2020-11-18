@@ -1,0 +1,2 @@
+solar_system
+-DCATKIN_DEVEL_PREFIX=/home/lucas/Solar_System_WS/devel -DCMAKE_INSTALL_PREFIX=/home/lucas/Solar_System_WS/install -G Unix Makefiles
